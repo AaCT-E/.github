@@ -1,77 +1,85 @@
-# AaCT-E — Admissibility at Commit-Time
+# AaCT-E — Admissibility at Commit-Time Engine
 
-Commit-time governance for real systems.
+> **Executable procurement evidence for the GCAT/BCAT safety formalism.**
 
----
-
-## What this is
-
-AaCT-E (Admissibility at Commit-Time Engine) is a runtime enforcement layer that determines whether an action should be allowed at the exact moment it becomes irreversible.
-
-Most systems evaluate before execution or audit after.
-
-AaCT-E governs at the point of commit.
+[![Ecosystem](https://img.shields.io/badge/ecosystem-GCAT%2FBCAT-blue)](https://github.com/GCAT-BCAT-Engine)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green)](https://github.com/AaCT-E/demo/blob/main/LICENSE)
 
 ---
 
-## Core idea
+## What is AaCT-E?
 
-An action is allowed only if it preserves the system’s ability to remain within a recoverable and governable state.
+**AaCT-E** (Admissibility at Commit-Time Engine) is the procurement-facing demonstration layer of the GCAT/BCAT research ecosystem. It translates formal safety proofs into **runnable, verifiable artifacts** that FAA/TSSC reviewers and SBIR evaluators can execute in seconds.
 
-If that condition fails, the action is denied.
+### The Core Claim
 
----
+> At the exact moment an action would become operationally real, the system can evaluate whether recovery remains available and **deny** the action if it would push the system into an unrecoverable or separation-violating state.
 
-## Why this matters
-
-Modern systems increasingly:
-- act autonomously
-- chain decisions
-- operate under partial information
-
-Without enforcement at the commit boundary, systems can:
-- drift into unsafe states through individually valid steps
-- lose the ability to recover before failure is detected
-
-AaCT-E closes that gap.
+This is **commit-time safety enforcement** — not pre-approved authority, not post-hoc audit, but governance at the boundary between decision and effect.
 
 ---
 
-## What we build
+## Repositories
 
-- AaCT-E Engine — runtime admissibility resolver
-- Simulation demos — minimal, reproducible proofs
-- Formal models — admissibility, recoverability, invariance
-- Execution-layer tooling — integration into real systems
-
----
-
-## Current status
-
-- Minimal working prototype (2-aircraft simulation)
-- Commit-time allow/deny enforcement
-- Deterministic replay + trace output
+| Repo | Purpose | Status |
+|------|---------|--------|
+| **[`demo`](https://github.com/AaCT-E/demo)** | Minimal runnable prototype — Phase I evidence | 🟢 Active |
 
 ---
 
-## Roadmap
+## Ecosystem
 
-- Multi-agent scenarios
-- Disturbance-aware models
-- Formal proof integration (barrier functions / reachability)
-- Real system integration points
+AaCT-E sits between **theory** and **operations** in the GCAT/BCAT pipeline:
+
+```
+┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
+│  GCAT-BCAT-Engine   │────▶│  GCAT-BCAT-Engine   │────▶│    AaCT-E/demo      │
+│  (Formal Theory)    │     │  /Publisher           │     │  (Executable Demo)    │
+│  Proofs, Metrics    │     │  Papers, Submissions  │     │  Procurement Evidence │
+└─────────────────────┘     └─────────────────────┘     └─────────────────────┘
+            │                                               │
+            └───────────────────────────────────────────────┘
+                              StegVerse Ecosystem
+                    ┌─────────┐    ┌─────────┐    ┌─────────┐
+                    │ StegDB  │    │  SDK    │    │  Site   │
+                    │ Monitor │    │ Validate│    │ Publish │
+                    └─────────┘    └─────────┘    └─────────┘
+```
+
+- **Upstream theory:** [GCAT-BCAT-Engine](https://github.com/GCAT-BCAT-Engine)
+- **Paper publishing & social media:** [GCAT-BCAT-Engine/Publisher](https://github.com/GCAT-BCAT-Engine/Publisher)
+- **Entity sandbox & monitoring:** [StegVerse-Labs/StegDB](https://github.com/StegVerse-Labs/StegDB)
+- **User-facing validation:** [StegVerse-Labs/SDK](https://github.com/StegVerse-Labs/SDK)
 
 ---
 
-## Contact / Collaboration
+## Quick Start
 
-We are actively exploring:
-- SBIR / government partnerships
-- safety-critical system integration
-- research collaboration
+```bash
+git clone https://github.com/AaCT-E/demo.git
+cd demo
+python run_demo.py      # Execute scenarios
+python verify_demo.py   # Verify assertions
+```
+
+**Zero dependencies. Zero configuration. One command.**
 
 ---
 
-AaCT-E enforces one rule:
+## For Reviewers
 
-> If recovery is no longer possible, the action does not occur.
+- **FAA / TSSC:** See [`docs/PROCUREMENT.md`](https://github.com/AaCT-E/demo/blob/main/docs/PROCUREMENT.md)
+- **SBIR Evaluators:** See [`docs/PROCUREMENT.md`](https://github.com/AaCT-E/demo/blob/main/docs/PROCUREMENT.md) → Commercialization Path
+- **Academic Researchers:** See [`CITATION.cff`](https://github.com/AaCT-E/demo/blob/main/CITATION.cff) and upstream [Publisher](https://github.com/GCAT-BCAT-Engine/Publisher)
+
+---
+
+## Contact
+
+- Issues: [github.com/AaCT-E/demo/issues](https://github.com/AaCT-E/demo/issues)
+- Discussions: [github.com/GCAT-BCAT-Engine](https://github.com/GCAT-BCAT-Engine)
+- Security: See [`SECURITY.md`](https://github.com/AaCT-E/.github/blob/main/SECURITY.md) (if available)
+
+---
+
+*AaCT-E is maintained by the GCAT/BCAT research group and integrated with the StegVerse ecosystem.*
