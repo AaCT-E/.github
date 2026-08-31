@@ -3,6 +3,13 @@
   "organization": "AaCT-E",
   "services": [
     {
+      "service_id": "aact-e.boundary-diagnostic",
+      "repository": "AaCT-E/.github",
+      "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
+      "profile_status": "ACTIVE",
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "aact-e.demo",
       "repository": "AaCT-E/demo",
       "profile": "../profiles/demo.json",
