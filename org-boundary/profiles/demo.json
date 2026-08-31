@@ -1,0 +1,40 @@
+{
+  "schema_version": "aact-e.endpoint-profile.v1",
+  "service_id": "aact-e.demo",
+  "repository": "AaCT-E/demo",
+  "boundary": "AaCT-E/.github",
+  "accepts": [
+    {
+      "type": "aact-e.evaluation.request",
+      "payload_contract": "application-owned"
+    },
+    {
+      "type": "aact-e.procurement-evidence.request",
+      "payload_contract": "application-owned"
+    }
+  ],
+  "produces": [
+    {
+      "type": "aact-e.evaluation.result",
+      "evidence_required": true
+    },
+    {
+      "type": "aact-e.procurement-evidence.result",
+      "evidence_required": true
+    }
+  ],
+  "required_context": [
+    "packet_id",
+    "origin",
+    "destination",
+    "intr_profile",
+    "transition.reference",
+    "transition.authority_effect"
+  ],
+  "receipt_obligations": [
+    "DISPATCHED",
+    "CONSUMED",
+    "RESULT_BOUND"
+  ],
+  "authority_rule": "Endpoint execution authority is determined by applicable transition elements; carrier presence and boundary routing do not grant execution authority."
+}
