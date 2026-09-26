@@ -1,0 +1,49 @@
+{
+  "schema": "stegverse.organization-open-source-inventory/v1",
+  "organization": "AaCT-E",
+  "snapshot_date": "2026-09-25",
+  "canonical_goal": "ECOSYSTEM-OPEN-SOURCE-STRATEGY-001",
+  "cosv": "20010010100000",
+  "scope": "Three public repositories returned by authenticated org-scoped GitHub search; each default-branch root LICENSE path inspected.",
+  "counts": {
+    "repositories": 3,
+    "public": 3,
+    "private": 0,
+    "internal": 0,
+    "root_apache_2_text_found": 1,
+    "root_license_not_found": 2,
+    "file_level_rights_verified": 0,
+    "copyright_title_verified": 0,
+    "release_authorizations": 0
+  },
+  "repositories": [
+    {
+      "repository": "AaCT-E/.github",
+      "visibility": "public",
+      "root_license_observation": "NOT_FOUND_AT_CHECKED_ROOT"
+    },
+    {
+      "repository": "AaCT-E/demo",
+      "visibility": "public",
+      "root_license_observation": "APACHE_2_TEXT_OBSERVED",
+      "root_license_blob_sha": "0d3e4537d08e04cf40b011eeebc27c4732e7a351",
+      "root_notice": "Copyright 2026 AaCT-E Contributors"
+    },
+    {
+      "repository": "AaCT-E/telemetry",
+      "visibility": "public",
+      "root_license_observation": "NOT_FOUND_AT_CHECKED_ROOT"
+    }
+  ],
+  "dispositions": [
+    "SOURCE_LICENSE_SCOPE_PARTIAL_ROOT_ONLY",
+    "CONTRIBUTOR_RIGHTS_UNVERIFIED",
+    "THIRD_PARTY_SOURCE_RIGHTS_UNVERIFIED",
+    "RELEASE_NOT_AUTHORIZED"
+  ],
+  "notes": [
+    "Root license observation is limited to checked default-branch root paths, not historical or file-level coverage.",
+    "Organization README Apache badge links to demo root LICENSE; it is not evidence that .github or telemetry have that license.",
+    "GitHub public visibility is not a copyright title or republication authorization. No source licenses were modified."
+  ]
+}

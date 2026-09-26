@@ -83,3 +83,7 @@ python verify_demo.py   # Verify assertions
 ---
 
 *AaCT-E is maintained by the GCAT/BCAT research group and integrated with the StegVerse ecosystem.*
+
+## Source-only organization license census
+
+The [AaCT-E source-owned audit](docs/OPEN_SOURCE_ORGANIZATION_INVENTORY_20260925.json) under existing `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001` / COSV `20010010100000` inspected the three currently registered public repositories: one observed root Apache 2.0 text (`demo`) and two root LICENSE paths not found (`.github`, `telemetry`). The Apache badge above refers to the demo and does not establish licensing for all organizational sources. Actual author rights, file-level grants, third-party imports and release authorization remain separately unverified.
