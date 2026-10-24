@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "ECAT-ICAT-Formal->AaCT-E:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:13febacd83ef6893f93941f670ba95646ae92d6158c3d9286f9560cff9618063",
+    "source_repository": "ECAT-ICAT-Formal/.github",
+    "source_repository_receipt_sha256": "sha256:44aa39813dd1942433831d39b9d6ae9f45a9d1663597a913c2d40a4b754a48ed"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "AaCT-E",
+  "predecessor_org_state_sha256": "sha256:581ec23a41d4a5904627c155f82cfe671963892d009fc1d65d50b6bcea178cea",
+  "previous_receipt_sha256": "sha256:ca770420fb980bc286e0ff12b990b013f2ff9aa7b8363ca74500e1a17d41e094",
+  "receipt_sha256": "sha256:234e5f58129881c38bc3027aea34739f38967e175414c9fc65c65f6f31e61173",
+  "repo_receipt_sha256": "sha256:c891d116bb770f4def8433076780557cc01181f3987e38a1afff82896f9f0a64",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:ECAT-ICAT-Formal->AaCT-E:intr-destination@intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "AaCT-E/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:ECAT-ICAT-Formal->AaCT-E:intr-destination@intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+  "source_transition_sha256": "sha256:c891d116bb770f4def8433076780557cc01181f3987e38a1afff82896f9f0a64",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:703ec074e33a628dc41479ae3c4dc17472f5b7d4a57ae4f1e91d9dc115fd5cfc"
+}
