@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:StegVerse-Labs->AaCT-E",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "StegVerse-Labs->AaCT-E:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:919bdcb6ffb71287f00ba930485747967996578534170ebb54c01618fc3ca7ae",
+    "source_repository": "StegVerse-Labs/.github",
+    "source_repository_receipt_sha256": "sha256:80747baffa69cdbdce03836947e234acb05e67c7d3bd6b0b932ad7ecb1ea91a6"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "AaCT-E",
+  "predecessor_org_state_sha256": "sha256:b348f9ac005de9972170f87ba21024fe23ea575a312c3a7c66e4e43887d899c6",
+  "previous_receipt_sha256": "sha256:000d70fb8487da5b0aaa29ca91f582fd1548c7275657d08deac1eeffce8eac38",
+  "receipt_sha256": "sha256:31c667603bc102f6a390932667baf651a538f68fa05485718e20ad9bcd66040c",
+  "repo_receipt_sha256": "sha256:5698e429fd58645a6b897765ae007ad64248fd700606a14622120ccc134a8ddd",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:StegVerse-Labs->AaCT-E:intr-destination@intr-path-v1:StegVerse-Labs->AaCT-E",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "AaCT-E/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:StegVerse-Labs->AaCT-E:intr-destination@intr-path-v1:StegVerse-Labs->AaCT-E",
+  "source_transition_sha256": "sha256:5698e429fd58645a6b897765ae007ad64248fd700606a14622120ccc134a8ddd",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:7fceb49e9fa5113f65772c8a87a9d52d3b8b0dd4689b3cd6953dee2f22ef5ffe"
+}
