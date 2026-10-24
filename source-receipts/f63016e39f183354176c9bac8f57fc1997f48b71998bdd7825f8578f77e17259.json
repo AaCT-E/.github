@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "aact-e.intr-destination",
+    "communication_id": "intr-path-v1:GCAT-BCAT-Engine->AaCT-E",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "GCAT-BCAT-Engine->AaCT-E:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "e8e78fe42cc880f922d0178909a9e82db5687d4d"
+      },
+      "communication_id": "intr-path-v1:GCAT-BCAT-Engine->AaCT-E",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:b55446b4bdfe73392f410b9ce970b11f7f0312d2452dd6bfaa9c9d88dda545e4",
+    "path_id": "GCAT-BCAT-Engine->AaCT-E:intr-destination",
+    "payload_sha256": "sha256:d5ef35469251e78a8a05b9218f39ce55ded806bb04e7addd098764455e2d206e",
+    "repository": "AaCT-E/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "aefa09a69f7efebeb3c2142233fa0ccf6aa1d363",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:a564bdcd8e3df16d414415cdebaa83cce63adff9715cdf1e1b769982033c4548",
+    "source_repository": "GCAT-BCAT-Engine/.github",
+    "source_repository_receipt_sha256": "sha256:3eac0552d66b8f4df23d1519bab6ddc8698166c64c3b12b0031b7a4640c7cfce"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:d5ef35469251e78a8a05b9218f39ce55ded806bb04e7addd098764455e2d206e",
+  "previous_receipt_sha256": "sha256:e2aee031cc03ef9b9244085545556197d8d5d1332b4556b90c3908cb662504c1",
+  "receipt_sha256": "sha256:f63016e39f183354176c9bac8f57fc1997f48b71998bdd7825f8578f77e17259",
+  "repository": "AaCT-E/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:2cdcfeac8a7ff53665bef0a01d69941852abcc6eaef54fa4f6292b108af95a36",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:GCAT-BCAT-Engine->AaCT-E:intr-destination@intr-path-v1:GCAT-BCAT-Engine->AaCT-E"
+}
