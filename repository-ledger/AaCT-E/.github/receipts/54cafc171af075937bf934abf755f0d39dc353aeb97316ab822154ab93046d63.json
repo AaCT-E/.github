@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:AaCT-E->SV-011",
+    "destination_address": "sv-011.intr-destination",
+    "destination_organization": "SV-011",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:d1b312a4439d5d79044e307996c9270efe13501e6259ed906a20e9fde816754d",
+    "message": {
+      "body": {
+        "path_id": "AaCT-E->SV-011:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "95626c47ec5ef7fd9719323ffef3b4b00b9ad61f"
+      },
+      "communication_id": "intr-path-v1:AaCT-E->SV-011",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:1d4a9d49d16d69549a9241f41e312a1e45469c6085f291ea4ea63a0a12d70743",
+    "path_id": "AaCT-E->SV-011:intr-destination",
+    "payload_sha256": "sha256:69dbe1070399f80a91f182986e14766612318e6ca32bd40e24cd1dc68bc26f5e",
+    "repository": "AaCT-E/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "AaCT-E",
+    "transfer_commit": "95626c47ec5ef7fd9719323ffef3b4b00b9ad61f"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:69dbe1070399f80a91f182986e14766612318e6ca32bd40e24cd1dc68bc26f5e",
+  "previous_receipt_sha256": "sha256:ea5bbee5fba83d7ec746202746f5a117e13d28c03174659ff598817240bb1792",
+  "receipt_sha256": "sha256:54cafc171af075937bf934abf755f0d39dc353aeb97316ab822154ab93046d63",
+  "repository": "AaCT-E/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:7529faf77da620abcd65544fd51feb20e3c4779378f06bfe902323c6dea7dd1e",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:AaCT-E->SV-011:intr-destination@intr-path-v1:AaCT-E->SV-011"
+}
