@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:StegVerse-org->AaCT-E",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "StegVerse-org->AaCT-E:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:da07a7b06510f4fd40c247c7b6f96d8650c88f9b1d9f51473a93a08d631af8be",
+    "source_repository": "StegVerse-org/.github",
+    "source_repository_receipt_sha256": "sha256:eeb8876aa7a6c013ba7c4113628cb5f88cfe3ccbca96134ebe6b31a6541316ad"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "AaCT-E",
+  "predecessor_org_state_sha256": "sha256:005ad4b480c1225139ac0f76abc6ddd06574f0d92ab84e817dd8f2a5f70df881",
+  "previous_receipt_sha256": "sha256:31c667603bc102f6a390932667baf651a538f68fa05485718e20ad9bcd66040c",
+  "receipt_sha256": "sha256:f81eae97a0079c5faac21dea3a63ba4027052fb9363bde17fdd230c53ff14af1",
+  "repo_receipt_sha256": "sha256:4aa52ae6001bb3b1d60ad31d206d3681d129b5e5acc36c283b53d0c9fefc97ca",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:StegVerse-org->AaCT-E:intr-destination@intr-path-v1:StegVerse-org->AaCT-E",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "AaCT-E/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:StegVerse-org->AaCT-E:intr-destination@intr-path-v1:StegVerse-org->AaCT-E",
+  "source_transition_sha256": "sha256:4aa52ae6001bb3b1d60ad31d206d3681d129b5e5acc36c283b53d0c9fefc97ca",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:39e2ca4187443200f6b48715abafc8b456e31386046f6163f20c48e52edf0884"
+}
