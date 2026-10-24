@@ -1,0 +1,55 @@
+{
+  "schema": "stegverse.intr-path-transfer-declaration/v1",
+  "source_repository": "AaCT-E/.github",
+  "rule": "Each row declares one InTr transfer over a declared mesh path whose source is this organization. Landing a row on main is the transition: after that push's main-merge transfer is ledgered, .github/workflows/intr-path-transfer.yml appends the path's source receipt, linked to that main-merge transfer receipt. A row already ledgered is answered from the ledger. No dispatch.",
+  "transfers": [
+    {
+      "path_id": "AaCT-E->Admissible-Existence:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->Admissible-Existence"
+    },
+    {
+      "path_id": "AaCT-E->AdmittedCode:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->AdmittedCode"
+    },
+    {
+      "path_id": "AaCT-E->Data-Continuation:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->Data-Continuation"
+    },
+    {
+      "path_id": "AaCT-E->ECAT-ICAT-Formal:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->ECAT-ICAT-Formal"
+    },
+    {
+      "path_id": "AaCT-E->GCAT-BCAT-Engine:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->GCAT-BCAT-Engine"
+    },
+    {
+      "path_id": "AaCT-E->SV-011:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->SV-011"
+    },
+    {
+      "path_id": "AaCT-E->SV-LLM:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->SV-LLM"
+    },
+    {
+      "path_id": "AaCT-E->StegGhost:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->StegGhost"
+    },
+    {
+      "path_id": "AaCT-E->StegVerse-002:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->StegVerse-002"
+    },
+    {
+      "path_id": "AaCT-E->StegVerse-Labs:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->StegVerse-Labs"
+    },
+    {
+      "path_id": "AaCT-E->StegVerse-org:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->StegVerse-org"
+    },
+    {
+      "path_id": "AaCT-E->Triad-Test:intr-destination",
+      "communication_id": "intr-path-v1:AaCT-E->Triad-Test"
+    }
+  ]
+}
