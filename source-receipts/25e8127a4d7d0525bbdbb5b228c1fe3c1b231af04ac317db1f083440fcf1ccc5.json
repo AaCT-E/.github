@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:AaCT-E->Triad-Test",
+    "destination_address": "triad-test.intr-destination",
+    "destination_organization": "Triad-Test",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:d1b312a4439d5d79044e307996c9270efe13501e6259ed906a20e9fde816754d",
+    "message": {
+      "body": {
+        "path_id": "AaCT-E->Triad-Test:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "95626c47ec5ef7fd9719323ffef3b4b00b9ad61f"
+      },
+      "communication_id": "intr-path-v1:AaCT-E->Triad-Test",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:b809588f0ee6b459762ad4550b156c27f132c9389ba1be624db603af1a0eb98f",
+    "path_id": "AaCT-E->Triad-Test:intr-destination",
+    "payload_sha256": "sha256:d2e7645d4fdb57e16b21bbe78973feab8d10abcd6d4d89d16641cd8169cf1167",
+    "repository": "AaCT-E/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "AaCT-E",
+    "transfer_commit": "95626c47ec5ef7fd9719323ffef3b4b00b9ad61f"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:d2e7645d4fdb57e16b21bbe78973feab8d10abcd6d4d89d16641cd8169cf1167",
+  "previous_receipt_sha256": "sha256:8b762c3c6d83ea43f4996e2ce0ec437292e52d5bfd7a8b23bf8ceb422adfb941",
+  "receipt_sha256": "sha256:25e8127a4d7d0525bbdbb5b228c1fe3c1b231af04ac317db1f083440fcf1ccc5",
+  "repository": "AaCT-E/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:c18c2d88252745cca863d9db39a19a55990924cd5a703b51df7bec5df3986cdb",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:AaCT-E->Triad-Test:intr-destination@intr-path-v1:AaCT-E->Triad-Test"
+}
