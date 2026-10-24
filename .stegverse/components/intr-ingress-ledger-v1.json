@@ -48,11 +48,11 @@
     },
     {
       "path": ".github/workflows/organization-ledger-transition.yml",
-      "sha256": "sha256:66329e0214179599c33c5479304ec28ed197962a6c47427fe934badc1ddfdb95"
+      "sha256": "sha256:485dd1d36fd25bafaa3b4619ee01e9bb7a51e7f412f964c512a60a7ec61e2c2c"
     },
     {
       "path": ".github/workflows/intr-ingress-ledger-component-validation.yml",
-      "sha256": "sha256:46c9b811228a7448e220c1447fe4f60c9d15e9be89b23e51d9e72569c74b1914"
+      "sha256": "sha256:bd61ea77cbee46540e2933184e8cef6ffcaa1077ec50f053878baa76e8a00da2"
     },
     {
       "path": "tests/test_intr_ingress_ledger_component.py",
