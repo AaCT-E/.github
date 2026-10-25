@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:SV-011->AaCT-E",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "SV-011->AaCT-E:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:f19883f57228da59a0685d2237eb12a0de340479221db3f5c5117cd4a258e64f",
+    "source_repository": "SV-011/.github",
+    "source_repository_receipt_sha256": "sha256:243bcfd42d126aface8ae00c3d729d6a061641131a5441e0be46631cb0b99027"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "AaCT-E",
+  "predecessor_org_state_sha256": "sha256:5e719741bbadd02e9874cfd997747cefc681cb2a2ca540aad88edf4b30145ed2",
+  "previous_receipt_sha256": "sha256:a64160a8f4fd09bd1b540588816b42c730cd25e7d23f44c183161b25f8c44c1e",
+  "receipt_sha256": "sha256:54a865493c170c9141e07910c764ab26d9c10be026c2b27c8371c3685759e5c5",
+  "repo_receipt_sha256": "sha256:2885d635bc9e41c5eb3b31098357205195c066eb1f52d037995c7930a00cda56",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:SV-011->AaCT-E:intr-destination@intr-path-v1:SV-011->AaCT-E",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "AaCT-E/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:SV-011->AaCT-E:intr-destination@intr-path-v1:SV-011->AaCT-E",
+  "source_transition_sha256": "sha256:2885d635bc9e41c5eb3b31098357205195c066eb1f52d037995c7930a00cda56",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:c87470789d31c39202929f9faea7cb3cc1208eb054622a041be0f79bf298f925"
+}
